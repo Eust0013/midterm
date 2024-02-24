@@ -38,4 +38,38 @@ h1{
     border-bottom: 2px solid #ff3530;
 }
 
-figcaption 
+figcaption, h2{
+    font-family: "Open Sans", serif;
+    
+}
+
+.author, .date{
+    font-size: .85rem;
+    margin-bottom: 0
+}
+
+figure{
+    margin: 1.25em 0;
+}
+
+figcaption{
+    font-size: .75rem;
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+a{ 
+    color: #1a1a1a;
+    text-decoration: underline;
+    }
+
+a:hover{
+    text-decoration: none;
+    color: #ff3530;
+}
